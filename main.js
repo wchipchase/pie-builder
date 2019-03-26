@@ -14,7 +14,7 @@ const domStringBuilder = (arrayToPrint) => {
       domString += `<div class="card col-3">`;
       domString += `  <div class="card-body">`;
       domString += `    <h5 class="card-title">${ingredient.item}</h5>`;
-      // domString += `    <a href="#" class="btn btn-primary">Go somewhere</a>`;
+      domString += `    <a href="#" class="btn btn-primary">Go somewhere</a>`;
       domString += `  </div>`;
       domString += `</div>`;
     });
